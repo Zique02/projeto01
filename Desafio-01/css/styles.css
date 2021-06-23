@@ -1,0 +1,80 @@
+body{
+    margin: 0%;
+    background-color: black;
+    font-family: 'IBM Plex Mono', monospace;
+    color: whitesmoke;
+    line-height: 30px;
+
+}
+header{
+    background-color: lightblue;
+    padding: 25px;
+    text-align: center;
+    position: fixed;
+    z-index: 2;
+    width: 100%;
+    
+}
+
+img.icone{
+    width: px;
+    margin-left: -1000px ;
+}
+
+li.menu{
+    display: inline;
+    padding: 10px;
+    border: 1px solid black;
+    margin: 5px;
+    font-weight: bold;
+    border-radius: 25px;
+    color: black;
+    font-style: italic;
+}
+
+h1{
+    text-align: center;
+    text-decoration-line: underline;
+    color: lightskyblue;
+}
+
+h2{
+    color: rgb(82, 82, 252);
+    font-style: oblique;
+}
+
+div.ids{
+    
+    border: 2px solid lightcyan;
+    padding: 30px;
+    margin-bottom: 15px;
+}
+
+img.banner{
+    margin-top: 10% ;
+    width: 100%; 
+}
+div.textos{
+    margin: 0px 90px;
+}
+
+a.zipzap{
+    
+    position: fixed;
+    z-index: 2;
+    bottom: 30px;
+    right: 30px;
+    height: 80px;
+    width: 80px;
+}
+
+footer{
+    text-align: center;
+    border: 2px solid lightcyan;
+    padding: 15px;
+    
+}
+
+img.gh{
+    width: 40px;
+}
