@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 25px;
+    background-color: white;
+    font-family: sans-serif;
+    background-color: brown ;
+    font-family: 'Press Start 2P', cursive;
+    background-image: url(https://cdn.discordapp.com/attachments/804525026706718754/860730718284021821/image.png);
+    background-repeat: no-repeat;
+    background-size: 99.95%;
+    background-position: center;
+}
+
+
+
+#form{
+    padding: 2%;
+    background-color: rgba(24, 114, 173, 0.966) ;
+    border-radius: 50px;
+    max-width: 40%;
+    margin: 2px auto;
+    text-align: center;
+
+}
+
+
+#form > h2{
+    color: rgb(0, 247, 255);
+    padding: 25px;
+
+}
+
+
+.box{
+    border: 2px solid orange;
+    border-radius: 15px;
+    padding-top: 3px ;
+    color: orange;
+    transition: 0.5s ease-in-out;
+}
+
+
+
+#form label{
+    color: orange;
+    display: block;
+    text-align: left;
+    margin: 0% 5%;
+    font-size: 15px;
+}
+
+.hvr_inp{
+    transition:  0.3s ease-in-out;
+}
+
+input[type="email"],
+input[type='password'],
+input[type='text']{
+    border: none;
+    border-radius: 10px;
+    margin: 15px ;
+    outline: none;
+    padding: 3% 3%;
+    text-align: center;
+    width: 90%;
+}
+
+.botao{
+    margin-top: 20px;
+    padding: 12px 30px;
+    border-radius: 50px;
+    border: none ;
+    background: none;
+    color: white;
+    background-color: orange;
+    color:Black ;
+    font-weight: bold;
+    font-family: 'Press Start 2P', cursive;
+    transition: 0.3s ease-in-out;
+}
