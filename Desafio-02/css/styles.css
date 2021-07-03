@@ -19,15 +19,17 @@ body{
 
 
 #form{
-    padding: 2%;
+    padding: 1.2%;
     background-color: rgba(24, 114, 173, 0.966) ;
-    border-radius: 50px;
-    max-width: 40%;
-    margin: 2px auto;
+    border-radius:50px;
+    max-width: 35%;
+    margin: auto;
     text-align: center;
 
 }
-
+#form > .sk8{
+     width: 100% ;
+}
 
 #form > h2{
     color: rgb(0, 247, 255);
